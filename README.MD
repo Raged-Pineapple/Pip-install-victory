@@ -1,13 +1,13 @@
 
 ---
 
-# ** Autonomous Multi-Agent Deal Finder**
+# Autonomous Multi-Agent Deal Finder
 
 An AI-powered system that autonomously detects genuine online deals by combining multi-agent reasoning, real-time data extraction, and intelligent price prediction using a fine-tuned LLaMA-3.2B model.
 
 ---
 
-## **1. Introduction**
+## 1. Introduction
 
 Online marketplaces are crowded with fluctuating prices, exaggerated discounts, and misleading “offers”.
 Users spend time comparing platforms, checking reviews, and verifying whether a listed price is actually a bargain.
@@ -17,7 +17,7 @@ It operates like a **24/7 intelligent deal hunter**, scanning the web, analyzing
 
 ---
 
-## ** 2. Problem Statement**
+##  2. Problem Statement
 
 Most existing price trackers simply monitor numerical price changes.
 They fail to understand:
@@ -27,11 +27,11 @@ They fail to understand:
 * Cross-platform inconsistencies and hidden price gaps
 * Quality indicators like reviews, sellers, and metadata
 
-**Users need a reliable, AI-driven system that can think, reason, compare, and decide—just like an expert shopper would.**
+Users need a reliable, AI-driven system that can think, reason, compare, and decide—just like an expert shopper would.
 
 ---
 
-## ** 3. Proposed Solution**
+##  3. Proposed Solution
 
 This project provides an **autonomous multi-agent ecosystem** powered by a **fine-tuned LLaMA 3.2B model** that predicts an item’s true market value from its title and description.
 
@@ -48,41 +48,41 @@ All agents collaborate seamlessly, creating an end-to-end intelligent deal analy
 
 ---
 
-## ** 4. Key Features**
+##  4. Key Features
 
-### ** Autonomous Multi-Agent Workflow**
+###  Autonomous Multi-Agent Workflow
 
 * Coordinated set of agents handling scraping, validation, price estimation, and notifications
 * Continuous, unsupervised operation
 
-### ** Fine-Tuned Price Prediction Model**
+###  Fine-Tuned Price Prediction Model
 
 * LLaMA 3.2B fine-tuned on product descriptions
 * Predicts the fair market price to detect genuine discounts
 
-### ** Smart Deal Detection**
+###  Smart Deal Detection
 
 * Uses Actual Price vs Predicted Price scoring
 * Includes statistical checks, historical trends, and platform cross-checks
 
-### ** Fraud & Fake Discount Filtering**
+###  Fraud & Fake Discount Filtering
 
 * Agents identify inflated MRPs, wrong variants, and misleading listings
 * Context-aware validation using LLM reasoning
 
-### ** Real-Time Notifications**
+###  Real-Time Notifications
 
 * Delivers concise markdown-based deal summaries
 * Triggered only when a strong, validated discount is detected
 
-### ** Extensible Architecture**
+###  Extensible Architecture
 
 * Easy to add new agents, marketplaces, or analysis modules
 * Built to scale into a complete shopping intelligence assistant
 
 ---
 
-## ** 5. System Architecture**
+##  5. System Architecture
 
 * **Scraper Agent** → Extracts product data and prices
 * **Price Predictor Agent** → Uses LLaMA 3.2B to estimate fair price
@@ -94,7 +94,7 @@ All agents collaborate seamlessly, creating an end-to-end intelligent deal analy
 
 ---
 
-## **🛠 6. Technology Stack**
+## 6. Technology Stack
 
 * **LLaMA 3.2B** for all language + reasoning tasks
 * **Fine-tuning pipeline** using QLoRA
@@ -106,7 +106,7 @@ All agents collaborate seamlessly, creating an end-to-end intelligent deal analy
 
 ---
 
-## ** 7. How It Works**
+##  7. How It Works
 
 1. User (or scheduler) triggers scanning
 2. Scraper Agent gathers product data
@@ -119,7 +119,7 @@ All agents collaborate seamlessly, creating an end-to-end intelligent deal analy
 
 ---
 
-## ** 8. Output Example**
+##  8. Output Example
 
 * Product title
 * Actual price
@@ -132,7 +132,7 @@ All agents collaborate seamlessly, creating an end-to-end intelligent deal analy
 
 ---
 
-## ** 9. Future Scope**
+##  9. Future Scope
 
 * Add support for more marketplaces
 * Integrate long-term price trend modeling
@@ -142,7 +142,7 @@ All agents collaborate seamlessly, creating an end-to-end intelligent deal analy
 
 ---
 
-## ** 10. Conclusion**
+##  10. Conclusion
 
 This project demonstrates how a fine-tuned LLaMA model combined with autonomous multi-agent intelligence can transform online shopping into a smarter, data-driven experience.
 It brings clarity to pricing, filters out false discounts, and empowers users with trustworthy, AI-verified deal insights.
